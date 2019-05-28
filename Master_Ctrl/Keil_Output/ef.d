@@ -1,0 +1,10 @@
+..\keil_output\ef.o: ..\UserCode\E2pfs\src\ef.c
+..\keil_output\ef.o: ..\UserCode\E2pfs\src\ef.h
+..\keil_output\ef.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+..\keil_output\ef.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\keil_output\ef.o: ..\UserCode\E2pfs\src\e2pio.h
+..\keil_output\ef.o: ..\UserCode\Fatfs\src\integer.h
+..\keil_output\ef.o: ..\UserCode\E2pfs\src\efconf.h
+..\keil_output\ef.o: ..\UserCode\Driver\AT24Cxx\at24cxx.h
+..\keil_output\ef.o: ..\UserCode\Driver\AT24Cxx\at24cxx_conf.h
+..\keil_output\ef.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

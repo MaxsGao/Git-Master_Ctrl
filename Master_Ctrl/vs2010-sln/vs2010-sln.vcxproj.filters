@@ -1,0 +1,493 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\Data_Oper">
+      <UniqueIdentifier>{197ac13c-dae5-49b3-a5ca-f72ddd663f9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\User_Bsp">
+      <UniqueIdentifier>{6792aaae-99b5-4fdd-bc30-305301587f59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\W5500">
+      <UniqueIdentifier>{54dd1db0-2916-49c9-a03f-1e7135395079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\User_Moudle">
+      <UniqueIdentifier>{44276273-5b17-4bb8-8ce3-1d69021ef2c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\User">
+      <UniqueIdentifier>{f8b7db2a-d821-42fa-aa49-aa0f05be0b82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\STM32_Lib">
+      <UniqueIdentifier>{8f10816f-5d74-44ab-bfa4-3d09eee9d811}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\STM32_Lib\inc">
+      <UniqueIdentifier>{d5fd1552-2c8e-45ef-850e-7ae5f8b69a5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\STM32_Lib\src">
+      <UniqueIdentifier>{826dd6e4-4329-49ea-a008-5565062ddf6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\UCOS II">
+      <UniqueIdentifier>{c215e5ca-3252-4a15-b6c8-256253871348}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\UCOS II\Conf">
+      <UniqueIdentifier>{35cd98ff-9169-465e-8b8e-06659c0dccf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\UCOS II\Port">
+      <UniqueIdentifier>{b2c2e5a3-b1a2-437d-8ada-f7fd79ea8892}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\UCOS II\Core">
+      <UniqueIdentifier>{31b8399c-6f79-4663-80f0-bf66697554b6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\UCOSII\CORE\os_core.c">
+      <Filter>源文件\UCOS II\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UCOSII\CORE\os_flag.c">
+      <Filter>源文件\UCOS II\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UCOSII\CORE\os_mbox.c">
+      <Filter>源文件\UCOS II\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UCOSII\CORE\os_mem.c">
+      <Filter>源文件\UCOS II\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UCOSII\CORE\os_mutex.c">
+      <Filter>源文件\UCOS II\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UCOSII\CORE\os_q.c">
+      <Filter>源文件\UCOS II\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UCOSII\CORE\os_sem.c">
+      <Filter>源文件\UCOS II\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UCOSII\CORE\os_task.c">
+      <Filter>源文件\UCOS II\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UCOSII\CORE\os_time.c">
+      <Filter>源文件\UCOS II\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UCOSII\CORE\os_tmr.c">
+      <Filter>源文件\UCOS II\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UCOSII\CORE\ucos_ii.c">
+      <Filter>源文件\UCOS II\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UCOSII\PORT\os_cpu_c.c">
+      <Filter>源文件\UCOS II\Port</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UCOSII\PORT\os_dbg.c">
+      <Filter>源文件\UCOS II\Port</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UCOSII\PORT\os_dbg_r.c">
+      <Filter>源文件\UCOS II\Port</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\UserCode\DataOper\BoxOs_str.c">
+      <Filter>源文件\Data_Oper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\UserCode\DataOper\cmd_para.c">
+      <Filter>源文件\Data_Oper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\UserCode\DataOper\CRC16.c">
+      <Filter>源文件\Data_Oper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\UserCode\DataOper\hex_para.c">
+      <Filter>源文件\Data_Oper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\UserCode\DataOper\list.c">
+      <Filter>源文件\Data_Oper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\UserCode\DataOper\malloc.c">
+      <Filter>源文件\Data_Oper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\UserCode\DataOper\OperationList.c">
+      <Filter>源文件\Data_Oper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\UserCode\DataOper\queue.c">
+      <Filter>源文件\Data_Oper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\UserCode\Driver\Bsp\DELAY.c">
+      <Filter>源文件\User_Bsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\UserCode\Driver\Bsp\DMA.c">
+      <Filter>源文件\User_Bsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\UserCode\Driver\Bsp\SPI.c">
+      <Filter>源文件\User_Bsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\UserCode\Driver\Bsp\SYS.c">
+      <Filter>源文件\User_Bsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\UserCode\Driver\Bsp\TIMPWM.c">
+      <Filter>源文件\User_Bsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\UserCode\Driver\Bsp\UART.c">
+      <Filter>源文件\User_Bsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\UserCode\Driver\W5500\socket.c">
+      <Filter>源文件\W5500</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\UserCode\Driver\W5500\w5500.c">
+      <Filter>源文件\W5500</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\UserCode\Driver\W5500\w5500_conf.c">
+      <Filter>源文件\W5500</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\UserCode\Moudle\Inet.c">
+      <Filter>源文件\User_Moudle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\UserCode\Moudle\Lamp.c">
+      <Filter>源文件\User_Moudle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\UserCode\Moudle\Led.c">
+      <Filter>源文件\User_Moudle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\UserCode\Moudle\Phone.c">
+      <Filter>源文件\User_Moudle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\UserCode\Moudle\UartLCD.c">
+      <Filter>源文件\User_Moudle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\UserCode\Moudle\WorkBench.c">
+      <Filter>源文件\User_Moudle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\UserCode\stm32f4xx_it.c">
+      <Filter>源文件\User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\UserCode\user_main.c">
+      <Filter>源文件\User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\UserCode\user_Task.c">
+      <Filter>源文件\User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\UserCode\system_stm32f4xx.c">
+      <Filter>源文件\STM32_Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\src\misc.c">
+      <Filter>源文件\STM32_Lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\src\stm32f4xx_adc.c">
+      <Filter>源文件\STM32_Lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\src\stm32f4xx_can.c">
+      <Filter>源文件\STM32_Lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\src\stm32f4xx_crc.c">
+      <Filter>源文件\STM32_Lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\src\stm32f4xx_cryp.c">
+      <Filter>源文件\STM32_Lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\src\stm32f4xx_cryp_aes.c">
+      <Filter>源文件\STM32_Lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\src\stm32f4xx_cryp_des.c">
+      <Filter>源文件\STM32_Lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\src\stm32f4xx_cryp_tdes.c">
+      <Filter>源文件\STM32_Lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\src\stm32f4xx_dac.c">
+      <Filter>源文件\STM32_Lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\src\stm32f4xx_dbgmcu.c">
+      <Filter>源文件\STM32_Lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\src\stm32f4xx_dcmi.c">
+      <Filter>源文件\STM32_Lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\src\stm32f4xx_dma.c">
+      <Filter>源文件\STM32_Lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\src\stm32f4xx_dma2d.c">
+      <Filter>源文件\STM32_Lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\src\stm32f4xx_exti.c">
+      <Filter>源文件\STM32_Lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\src\stm32f4xx_flash.c">
+      <Filter>源文件\STM32_Lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\src\stm32f4xx_flash_ramfunc.c">
+      <Filter>源文件\STM32_Lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\src\stm32f4xx_fmc.c">
+      <Filter>源文件\STM32_Lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\src\stm32f4xx_fsmc.c">
+      <Filter>源文件\STM32_Lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\src\stm32f4xx_gpio.c">
+      <Filter>源文件\STM32_Lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\src\stm32f4xx_hash.c">
+      <Filter>源文件\STM32_Lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\src\stm32f4xx_hash_md5.c">
+      <Filter>源文件\STM32_Lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\src\stm32f4xx_hash_sha1.c">
+      <Filter>源文件\STM32_Lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\src\stm32f4xx_i2c.c">
+      <Filter>源文件\STM32_Lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\src\stm32f4xx_iwdg.c">
+      <Filter>源文件\STM32_Lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\src\stm32f4xx_ltdc.c">
+      <Filter>源文件\STM32_Lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\src\stm32f4xx_pwr.c">
+      <Filter>源文件\STM32_Lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\src\stm32f4xx_rcc.c">
+      <Filter>源文件\STM32_Lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\src\stm32f4xx_rng.c">
+      <Filter>源文件\STM32_Lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\src\stm32f4xx_rtc.c">
+      <Filter>源文件\STM32_Lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\src\stm32f4xx_sai.c">
+      <Filter>源文件\STM32_Lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\src\stm32f4xx_sdio.c">
+      <Filter>源文件\STM32_Lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\src\stm32f4xx_spi.c">
+      <Filter>源文件\STM32_Lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\src\stm32f4xx_syscfg.c">
+      <Filter>源文件\STM32_Lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\src\stm32f4xx_tim.c">
+      <Filter>源文件\STM32_Lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\src\stm32f4xx_usart.c">
+      <Filter>源文件\STM32_Lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\src\stm32f4xx_wwdg.c">
+      <Filter>源文件\STM32_Lib\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\UCOSII\CORE\ucos_ii.h">
+      <Filter>源文件\UCOS II\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UCOSII\PORT\os_cpu.h">
+      <Filter>源文件\UCOS II\Port</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UCOSII\CONFIG\includes.h">
+      <Filter>源文件\UCOS II\Conf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UCOSII\CONFIG\os_cfg.h">
+      <Filter>源文件\UCOS II\Conf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\UserCode\DataOper\BoxOs_str.h">
+      <Filter>源文件\Data_Oper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\UserCode\DataOper\cmd_para.h">
+      <Filter>源文件\Data_Oper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\UserCode\DataOper\CRC16.h">
+      <Filter>源文件\Data_Oper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\UserCode\DataOper\hex_para.h">
+      <Filter>源文件\Data_Oper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\UserCode\DataOper\list.h">
+      <Filter>源文件\Data_Oper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\UserCode\DataOper\malloc.h">
+      <Filter>源文件\Data_Oper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\UserCode\DataOper\OperationList.h">
+      <Filter>源文件\Data_Oper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\UserCode\DataOper\queue.h">
+      <Filter>源文件\Data_Oper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\UserCode\Driver\Bsp\DELAY.h">
+      <Filter>源文件\User_Bsp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\UserCode\Driver\Bsp\DMA.h">
+      <Filter>源文件\User_Bsp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\UserCode\Driver\Bsp\SPI.h">
+      <Filter>源文件\User_Bsp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\UserCode\Driver\Bsp\SYS.h">
+      <Filter>源文件\User_Bsp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\UserCode\Driver\Bsp\TIMPWM.h">
+      <Filter>源文件\User_Bsp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\UserCode\Driver\Bsp\UART.h">
+      <Filter>源文件\User_Bsp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\UserCode\Driver\W5500\socket.h">
+      <Filter>源文件\W5500</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\UserCode\Driver\W5500\w5500.h">
+      <Filter>源文件\W5500</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\UserCode\Driver\W5500\w5500_conf.h">
+      <Filter>源文件\W5500</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\UserCode\Moudle\Inet.h">
+      <Filter>源文件\User_Moudle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\UserCode\Moudle\Lamp.h">
+      <Filter>源文件\User_Moudle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\UserCode\Moudle\Led.h">
+      <Filter>源文件\User_Moudle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\UserCode\Moudle\Phone.h">
+      <Filter>源文件\User_Moudle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\UserCode\Moudle\UartLCD.h">
+      <Filter>源文件\User_Moudle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\UserCode\Moudle\WorkBench.h">
+      <Filter>源文件\User_Moudle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\UserCode\stm32f4xx_it.h">
+      <Filter>源文件\User</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\UserCode\user_Task.h">
+      <Filter>源文件\User</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\UserCode\stm32f4xx.h">
+      <Filter>源文件\STM32_Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\UserCode\stm32f4xx_conf.h">
+      <Filter>源文件\STM32_Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\UserCode\system_stm32f4xx.h">
+      <Filter>源文件\STM32_Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\core\core_cm4.h">
+      <Filter>源文件\STM32_Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\core\core_cm4_simd.h">
+      <Filter>源文件\STM32_Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\core\core_cmFunc.h">
+      <Filter>源文件\STM32_Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\core\core_cmInstr.h">
+      <Filter>源文件\STM32_Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\inc\misc.h">
+      <Filter>源文件\STM32_Lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\inc\stm32f4xx_adc.h">
+      <Filter>源文件\STM32_Lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\inc\stm32f4xx_can.h">
+      <Filter>源文件\STM32_Lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\inc\stm32f4xx_crc.h">
+      <Filter>源文件\STM32_Lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\inc\stm32f4xx_cryp.h">
+      <Filter>源文件\STM32_Lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\inc\stm32f4xx_dac.h">
+      <Filter>源文件\STM32_Lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\inc\stm32f4xx_dbgmcu.h">
+      <Filter>源文件\STM32_Lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\inc\stm32f4xx_dcmi.h">
+      <Filter>源文件\STM32_Lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\inc\stm32f4xx_dma.h">
+      <Filter>源文件\STM32_Lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\inc\stm32f4xx_dma2d.h">
+      <Filter>源文件\STM32_Lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\inc\stm32f4xx_exti.h">
+      <Filter>源文件\STM32_Lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\inc\stm32f4xx_flash.h">
+      <Filter>源文件\STM32_Lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\inc\stm32f4xx_flash_ramfunc.h">
+      <Filter>源文件\STM32_Lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\inc\stm32f4xx_fmc.h">
+      <Filter>源文件\STM32_Lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\inc\stm32f4xx_fsmc.h">
+      <Filter>源文件\STM32_Lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\inc\stm32f4xx_gpio.h">
+      <Filter>源文件\STM32_Lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\inc\stm32f4xx_hash.h">
+      <Filter>源文件\STM32_Lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\inc\stm32f4xx_i2c.h">
+      <Filter>源文件\STM32_Lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\inc\stm32f4xx_iwdg.h">
+      <Filter>源文件\STM32_Lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\inc\stm32f4xx_ltdc.h">
+      <Filter>源文件\STM32_Lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\inc\stm32f4xx_pwr.h">
+      <Filter>源文件\STM32_Lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\inc\stm32f4xx_rcc.h">
+      <Filter>源文件\STM32_Lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\inc\stm32f4xx_rng.h">
+      <Filter>源文件\STM32_Lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\inc\stm32f4xx_rtc.h">
+      <Filter>源文件\STM32_Lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\inc\stm32f4xx_sai.h">
+      <Filter>源文件\STM32_Lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\inc\stm32f4xx_sdio.h">
+      <Filter>源文件\STM32_Lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\inc\stm32f4xx_spi.h">
+      <Filter>源文件\STM32_Lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\inc\stm32f4xx_syscfg.h">
+      <Filter>源文件\STM32_Lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\inc\stm32f4xx_tim.h">
+      <Filter>源文件\STM32_Lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\inc\stm32f4xx_usart.h">
+      <Filter>源文件\STM32_Lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\inc\stm32f4xx_wwdg.h">
+      <Filter>源文件\STM32_Lib\inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\UCOSII\PORT\os_cpu_a.asm">
+      <Filter>源文件\UCOS II\Port</Filter>
+    </None>
+    <None Include="..\..\..\..\4、工作台触摸控制\2. 项目代码\WorkBench_IntelligentCtrl_F4\STM32_Lib\core\startup_stm32f40_41xxx.s">
+      <Filter>源文件\STM32_Lib</Filter>
+    </None>
+  </ItemGroup>
+</Project>
